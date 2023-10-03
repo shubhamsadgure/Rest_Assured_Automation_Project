@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="29.705" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="C:\Users\HP\eclipse-workspace\RestAssuredAutomationFrameworkProject\target\test-classes;C:\Users\HP\eclipse-workspace\RestAssuredAutomationFrameworkProject\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire10575628738948850841\surefirebooter10477328164869104758.jar C:\Windows\Temp\surefire10575628738948850841 2023-10-03T17-38-42_168-jvmRun1 surefire15310864728360837904tmp surefire_05957004958255722217tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\HP\eclipse-workspace\RestAssuredAutomationFrameworkProject\target\test-classes;C:\Users\HP\eclipse-workspace\RestAssuredAutomationFrameworkProject\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\HP\eclipse-workspace\RestAssuredAutomationFrameworkProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire10575628738948850841\surefirebooter10477328164869104758.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="user.name" value="LAPTOP-CLNODGQA$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="C:\Users\HP\eclipse-workspace\RestAssuredAutomationFrameworkProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Java\jdk-17/bin;C:\Program Files\Java\jdk-17/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\WebTech\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules;C:\apache-maven-3.9.4\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testCreateUser" classname="api.testcase.UserTest" time="2.804">
+    <system-out><![CDATA[On Start method invoked....
+Name of test method started:testCreateUser
+HTTP/1.1 200 OK
+Date: Tue, 03 Oct 2023 12:08:46 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1003292107"
+}
+[INFO ] 2023-10-03 17:38:46.310 [main] RestAssuredAutomationFramework_test - Create User executed.
+Name of test method sucessfully executed:testCreateUser
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserData" classname="api.testcase.UserTest" time="2.829">
+    <system-out><![CDATA[Name of test method started:testGetUserData
+Read User Data.
+HTTP/1.1 200 OK
+Date: Tue, 03 Oct 2023 12:08:49 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1003292107,
+    "username": "tanna.west",
+    "firstName": "Reda",
+    "lastName": "Hermiston",
+    "email": "luis.ohara@example.com",
+    "password": "tv6b3esh",
+    "phone": "1-281-930-2774",
+    "userStatus": 0
+}
+[INFO ] 2023-10-03 17:38:49.153 [main] RestAssuredAutomationFramework_test - Get User Data executed.
+Name of test method sucessfully executed:testGetUserData
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser" classname="api.testcase.UserTest" time="5.067">
+    <system-out><![CDATA[Name of test method started:testUpdateUser
+HTTP/1.1 200 OK
+Date: Tue, 03 Oct 2023 12:08:52 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1003292107"
+}
+After Update User Data.
+HTTP/1.1 200 OK
+Date: Tue, 03 Oct 2023 12:08:54 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 1003292107,
+    "username": "tanna.west",
+    "firstName": "Barbra",
+    "lastName": "Hermiston",
+    "email": "luis.ohara@example.com",
+    "password": "tv6b3esh",
+    "phone": "1-281-930-2774",
+    "userStatus": 0
+}
+[INFO ] 2023-10-03 17:38:54.223 [main] RestAssuredAutomationFramework_test - Update User executed.
+Name of test method sucessfully executed:testUpdateUser
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser" classname="api.testcase.UserTest" time="1.657">
+    <system-out><![CDATA[Name of test method started:testDeleteUser
+Delete User Data.
+HTTP/1.1 200 OK
+Date: Tue, 03 Oct 2023 12:08:56 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "tanna.west"
+}
+[INFO ] 2023-10-03 17:38:55.879 [main] RestAssuredAutomationFramework_test - Delete User executed.
+Name of test method sucessfully executed:testDeleteUser
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUser[2020, user1, Rita, Gupta, a@gmail.com, test@1, 1234567897](1)" classname="api.testcase.UserTestDD" time="1.592">
+    <system-out><![CDATA[[DEBUG] 2023-10-03 17:38:55.991 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:55.993 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:55.995 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.408 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.409 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.409 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.430 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.431 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.432 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.454 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.454 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.455 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.472 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.473 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.473 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.489 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.489 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.489 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.504 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.505 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.505 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.520 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.520 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.521 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.535 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.535 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.536 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.549 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.550 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.550 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.564 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.565 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.565 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.577 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.578 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.578 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.590 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.591 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.591 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.601 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.602 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.602 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.613 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.614 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.614 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.627 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.627 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.627 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.648 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.649 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.649 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.661 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.662 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.662 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.673 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.674 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.674 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.684 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.685 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.685 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.697 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.698 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.699 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.710 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.710 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.712 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.721 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.721 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.722 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.732 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.733 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.733 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.744 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.744 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.745 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.754 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.755 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.755 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.767 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.768 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.768 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.778 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.778 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.778 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.788 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.788 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.789 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:38:56.798 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:38:56.799 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:38:56.799 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+Name of test method started:testCreateUser
+HTTP/1.1 200 OK
+Date: Tue, 03 Oct 2023 12:08:58 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "2020"
+}
+[INFO ] 2023-10-03 17:38:58.400 [main] RestAssuredAutomationFramework_DDtest - DD Create User executed.
+Name of test method sucessfully executed:testCreateUser
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUser[2021, user2, Radha, Jain, b@gmail.com, test@2, 1234567897](2)" classname="api.testcase.UserTestDD" time="1.952">
+    <system-out><![CDATA[Name of test method started:testCreateUser
+HTTP/1.1 200 OK
+Date: Tue, 03 Oct 2023 12:09:00 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "2021"
+}
+[INFO ] 2023-10-03 17:39:00.355 [main] RestAssuredAutomationFramework_DDtest - DD Create User executed.
+Name of test method sucessfully executed:testCreateUser
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUser[2022, user3, Smita, Pathak, c@gmail.com, test@3, 1234567897](3)" classname="api.testcase.UserTestDD" time="2.879">
+    <system-out><![CDATA[Name of test method started:testCreateUser
+HTTP/1.1 200 OK
+Date: Tue, 03 Oct 2023 12:09:03 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "2022"
+}
+[INFO ] 2023-10-03 17:39:03.236 [main] RestAssuredAutomationFramework_DDtest - DD Create User executed.
+Name of test method sucessfully executed:testCreateUser
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUser[2024, user4, Renu, Shah, renu@gmail.com, test@4, 1234567897](4)" classname="api.testcase.UserTestDD" time="1.565">
+    <system-out><![CDATA[Name of test method started:testCreateUser
+HTTP/1.1 200 OK
+Date: Tue, 03 Oct 2023 12:09:05 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "2024"
+}
+[INFO ] 2023-10-03 17:39:04.801 [main] RestAssuredAutomationFramework_DDtest - DD Create User executed.
+Name of test method sucessfully executed:testCreateUser
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser[user1](1)" classname="api.testcase.UserTestDD" time="1.88">
+    <system-out><![CDATA[[DEBUG] 2023-10-03 17:39:04.808 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:39:04.809 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:39:04.809 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:39:04.817 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:39:04.818 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:39:04.818 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:39:04.826 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:39:04.827 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:39:04.827 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:39:04.835 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:39:04.836 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:39:04.836 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-10-03 17:39:04.846 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-10-03 17:39:04.846 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-10-03 17:39:04.847 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+Name of test method started:testDeleteUser
+Delete User Data.
+HTTP/1.1 200 OK
+Date: Tue, 03 Oct 2023 12:09:07 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "user1"
+}
+[INFO ] 2023-10-03 17:39:06.733 [main] RestAssuredAutomationFramework_DDtest - DD Delete User executed.
+Name of test method sucessfully executed:testDeleteUser
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser[user2](2)" classname="api.testcase.UserTestDD" time="1.905">
+    <system-out><![CDATA[Name of test method started:testDeleteUser
+Delete User Data.
+HTTP/1.1 200 OK
+Date: Tue, 03 Oct 2023 12:09:09 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "user2"
+}
+[INFO ] 2023-10-03 17:39:08.639 [main] RestAssuredAutomationFramework_DDtest - DD Delete User executed.
+Name of test method sucessfully executed:testDeleteUser
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser[user3](3)" classname="api.testcase.UserTestDD" time="1.597">
+    <system-out><![CDATA[Name of test method started:testDeleteUser
+Delete User Data.
+HTTP/1.1 200 OK
+Date: Tue, 03 Oct 2023 12:09:10 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "user3"
+}
+[INFO ] 2023-10-03 17:39:10.239 [main] RestAssuredAutomationFramework_DDtest - DD Delete User executed.
+Name of test method sucessfully executed:testDeleteUser
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser[user4](4)" classname="api.testcase.UserTestDD" time="1.601">
+    <system-out><![CDATA[Name of test method started:testDeleteUser
+Delete User Data.
+HTTP/1.1 200 OK
+Date: Tue, 03 Oct 2023 12:09:12 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "user4"
+}
+[INFO ] 2023-10-03 17:39:11.840 [main] RestAssuredAutomationFramework_DDtest - DD Delete User executed.
+Name of test method sucessfully executed:testDeleteUser
+]]></system-out>
+  </testcase>
+</testsuite>
